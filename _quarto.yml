@@ -1,0 +1,33 @@
+project:
+  type: book
+
+book:
+  title: "quartothesis"
+  author: "Jane Doe"
+  date: "27/04/2022"
+  abstract: This is a thesis skeleton written with quarto. 
+    Make a copy of this thesis repo and start to write!
+    You can write the abstract over several lines in the YAML - just remember
+    to indent each line
+  chapters:
+    - index.qmd
+    - 1-introduction.qmd
+    - 2-methods.qmd
+    - 3-results.qmd
+    - 4-discussion.qmd
+    - 5-conclusions.qmd
+    - references.qmd
+  appendices:
+    - app1-resources.qmd
+    - app2-tools.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
