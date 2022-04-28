@@ -12,7 +12,7 @@ You can download the repo with
 usethis::use_course("biostats-r/quartothesis")
 ```
 
-or fork it on github.
+or make a copy on GitHub by clicking the green "Use this template" button (see our [GitHub](https://biostats-r.github.io/biostats/github/index.html) tutorial on how to use your new repo).
 
 Once you have downloaded it, open in R studio and use the commands in the make_thesis.R file to render the thesis skeleton (start with the html version, to get the pdf version to work you will need to install extra packages). For day-to-day work, use the html version or you will spend too much time worrying about the exact placement of figures etc.
 
