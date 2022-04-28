@@ -2,15 +2,14 @@ project:
   type: book
 
 book:
-  title: "quartothesis"
+  title: "The title of my most excellent thesis"
   author: "Jane Doe"
-  date: "27/04/2022"
-  abstract: This is a thesis skeleton written with quarto. 
-    Make a copy of this thesis repo and start to write!
-    You can write the abstract over several lines in the YAML - just remember
-    to indent each line
+  date: today
+  date-format: "MMMM YYYY"
   chapters:
     - index.qmd
+    - acknowledgements.qmd
+    - 0-abstract.qmd
     - 1-introduction.qmd
     - 2-methods.qmd
     - 3-results.qmd
@@ -27,7 +26,22 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
+    toc: false
+    papersize: a4
+    header-includes: |
+      \usepackage{titling}
+      \preauthor{\begin{center}
+        \includegraphics[width=5in,height=4in]{figures/IMG_20210719_134928644.jpg}\\ % cover figure
+      \postauthor{\end{center}}
+      \predate{\begin{center}}
+        Master of Science in Biology\\
+        Biodiversity, Evolution and Ecology\\
+        Department of Biology\\
+        University of Bergen\\
+        \thedate\\
+        \includegraphics[width=1in,height=1in]{figures/UiB-emblem500px_gray.png}\\}
+      \postdate{\end{center}}
 
 editor: visual
 
