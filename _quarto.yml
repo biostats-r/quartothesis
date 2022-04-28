@@ -27,21 +27,33 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrbook
+    keep-tex: true 
     toc: false
     papersize: a4
     header-includes: |
       \usepackage{titling}
-      \preauthor{\begin{center}
+      \setlength{\droptitle}{-2cm}
+      \preauthor{
+        \begin{center}
         \includegraphics[width=5in,height=4in]{figures/IMG_20210719_134928644.jpg}\\ % cover figure
-      \postauthor{\end{center}}
-      \predate{\begin{center}}
-        Master of Science in Biology\\
-        Biodiversity, Evolution and Ecology\\
-        Department of Biology\\
-        University of Bergen\\
-        \thedate\\
-        \includegraphics[width=1in,height=1in]{figures/UiB-emblem500px_gray.png}\\}
-      \postdate{\end{center}}
+        \Large
+      }
+      \postauthor{
+        \end{center}
+      }
+      \predate{
+        \begin{center}
+        Master of Science in Biology\\               % Degree
+        Biodiversity, Evolution and Ecology\\        % Degree stream
+        Department of Biological Sciences\\          % Department
+        University of Bergen\\                       % University 
+        \vspace{5mm}
+      }
+      \postdate{
+        \\
+        \includegraphics[width=1.5in,height=1.5in]{figures/UiB-emblem500px_gray.png}\\
+        \end{center}
+       }
 
 editor: visual
 
