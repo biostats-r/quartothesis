@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The title of my most excellent thesis",
+    "section": "",
+    "text": "Cover Page\n\n\n\n\n\n\n\n\n\n\n\nMaster of Science in Biology\nBiodiversity, Evolution and Ecology\nDepartment of Biology\nUniversity of Bergen"
+  },
+  {
+    "objectID": "acknowledgements.html",
+    "href": "acknowledgements.html",
+    "title": "Acknowledgements",
+    "section": "",
+    "text": "Thanks for all the fish."
+  },
+  {
+    "objectID": "0-abstract.html",
+    "href": "0-abstract.html",
+    "title": "Abstract",
+    "section": "",
+    "text": "Make a new paragraph by leaving a blank line."
+  },
+  {
+    "objectID": "1-introduction.html",
+    "href": "1-introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "2-methods.html",
+    "href": "2-methods.html",
+    "title": "2  Methods",
+    "section": "",
+    "text": "Stuff I did to get the results."
+  },
+  {
+    "objectID": "3-results.html",
+    "href": "3-results.html",
+    "title": "3  Results",
+    "section": "",
+    "text": "See Appendix A for more detailed results"
+  },
+  {
+    "objectID": "4-discussion.html",
+    "href": "4-discussion.html",
+    "title": "4  Discussion",
+    "section": "",
+    "text": "My results in context"
+  },
+  {
+    "objectID": "5-conclusions.html",
+    "href": "5-conclusions.html",
+    "title": "5  Summary",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "app1-resources.html",
+    "href": "app1-resources.html",
+    "title": "Appendix A — More results",
+    "section": "",
+    "text": "Some results that wouldn’t fit into the main thesis"
+  },
+  {
+    "objectID": "app2-tools.html",
+    "href": "app2-tools.html",
+    "title": "Appendix B — Another appendix",
+    "section": "",
+    "text": "Something else"
+  }
+]

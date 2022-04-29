@@ -6,6 +6,8 @@
 
 The quartothesis is a skeleton of a Masters Thesis in the style used by the Department of Biological Sciences, University of Bergen (and probably elsewhere).
 
+You can view the rendered version of the thesis skeleton in [html](https://biostats-r.github.io/quartothesis/) or [pdf](https://biostats-r.github.io/quartothesis/The-title-of-my-most-excellent-thesis.pdf).
+
 You can download the repo with
 
 ``` r

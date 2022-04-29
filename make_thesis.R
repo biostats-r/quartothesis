@@ -12,3 +12,6 @@ quarto_render(output_format = "html")
 
 quarto_render(output_format = "pdf")
 
+
+#both pdf and html
+quarto_render()
