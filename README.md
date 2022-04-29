@@ -26,6 +26,7 @@ Start by editing the \_quarto.yml file. Here you need to edit the
 -   appendices (line 19) if you add or remove any appendices
 -   cover figure (line 38)
 -   Degree etc (line 46)
+- Description of cover figure (line 60)
 
 Each chapter should be a new file. 
 
