@@ -1,7 +1,7 @@
 project:
   type: book
   output-dir: docs
-
+  
 book:
   title: "The title of my most excellent thesis"
   author: "Jane Doe"
@@ -22,6 +22,9 @@ book:
     - app2-tools.qmd
 
 bibliography: references.bib
+
+execute:
+  echo: true # change to false to hide code
 
 format:
   html:
