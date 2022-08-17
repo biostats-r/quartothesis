@@ -4,18 +4,14 @@ execute:
 ---
 
 
-```{r}
-if(knitr::is_latex_output()){
-  knitr::knit_exit() # don't print this cover page if printing to pdf
-}
-```
+::: {.content-visible when-format="pdf"}
+{{< include acknowledgements.qmd >}}
+:::
 
+::: {.content-hidden when-format="pdf"}
 ::: {style="opacity: 0"}
 # Cover Page {.unnumbered .unlisted}
 :::
-
-
-
 
 ```{r}
 #| label: cover-fig
@@ -42,3 +38,4 @@ knitr::include_graphics("figures/IMG_20210719_134928644.jpg")
 
 knitr::include_graphics("figures/UiB-emblem500px_gray.png")
 ```
+:::

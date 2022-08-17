@@ -9,7 +9,7 @@ book:
   date-format: "MMMM YYYY"
   chapters:
     - index.qmd
-    - acknowledgements.qmd
+#    - acknowledgements.qmd         # uncomment this line to see acknowledgements in html (will appear twice in pfd)
     - 0-abstract.qmd
     - 1-introduction.qmd
     - 2-methods.qmd
