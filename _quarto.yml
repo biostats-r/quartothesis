@@ -30,7 +30,7 @@ format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrbook
+    documentclass: scrreprt
     keep-tex: true 
     toc: false
     papersize: a4
