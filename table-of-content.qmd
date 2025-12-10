@@ -1,0 +1,8 @@
+# {.unnumbered .unlisted}
+
+```{=tex}
+\begingroup
+\let\clearpage\relax
+\tableofcontents*
+\endgroup
+```

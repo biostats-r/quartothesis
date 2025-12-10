@@ -4,8 +4,3 @@ This is a thesis skeleton written with quarto.
 Make a copy of this thesis repo and start to write!
 
 Make a new paragraph by leaving a blank line.
-
-```{=tex}
-\newpage
-\tableofcontents
-```
