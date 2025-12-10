@@ -23,6 +23,8 @@ or make a copy on GitHub by clicking the green "Use this template" button (see o
 Once you have downloaded it, open in R studio and use the commands in the make_thesis.R file to render the thesis skeleton (start with the html version, to get the pdf version to work you will need to install extra packages).
 For day-to-day work, use the html version or you will spend too much time worrying about the exact placement of figures etc.
 
+If you really want a word docx file as output, uncomment the relevant line in _quarto-html.yml and then render as html.
+
 ## Editing the files
 
 Now you can start editing the thesis.

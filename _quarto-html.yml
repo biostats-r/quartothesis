@@ -14,5 +14,6 @@ book:
     - app2-tools.qmd
 
 format:
+  docx: default # uncomment this line to get a word docx file
   html:
     theme: cosmo
