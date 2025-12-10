@@ -1,0 +1,25 @@
+book:
+  chapters:
+    - index.md
+    - 0-abstract.qmd
+    - table-of-content.qmd
+    - 1-introduction.qmd
+    - 2-methods.qmd
+    - 3-results.qmd
+    - 4-discussion.qmd
+    - 5-conclusions.qmd
+    - references.qmd
+  appendices:
+    - app1-resources.qmd
+    - app2-tools.qmd
+
+
+format:
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true 
+    toc: false
+    papersize: a4
+    include-in-header: include-in-header.tex
+
+editor: visual

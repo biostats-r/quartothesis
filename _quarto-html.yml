@@ -1,0 +1,18 @@
+book:
+  chapters:
+    - index.qmd
+    - acknowledgements.qmd   
+    - 0-abstract.qmd
+    - 1-introduction.qmd
+    - 2-methods.qmd
+    - 3-results.qmd
+    - 4-discussion.qmd
+    - 5-conclusions.qmd
+    - references.qmd
+  appendices:
+    - app1-resources.qmd
+    - app2-tools.qmd
+
+format:
+  html:
+    theme: cosmo

@@ -3,12 +3,6 @@ execute:
   echo: false
 ---
 
-
-::: {.content-visible when-format="pdf"}
-{{< include acknowledgements.qmd >}}
-:::
-
-::: {.content-hidden when-format="pdf"}
 ::: {style="opacity: 0"}
 # Cover Page {.unnumbered .unlisted}
 :::
@@ -18,7 +12,7 @@ execute:
 #| fig-align: center
 #| out-width: 80%
 #| echo: false
-#| fig-alt: Beckwithia glacialis on Snøhetta
+#| fig-alt: Ranunculus glacialis on Snøhetta
 
 knitr::include_graphics("figures/IMG_20210719_134928644.jpg")
 ```
@@ -38,4 +32,3 @@ knitr::include_graphics("figures/IMG_20210719_134928644.jpg")
 
 knitr::include_graphics("figures/UiB-emblem500px_gray.png")
 ```
-:::

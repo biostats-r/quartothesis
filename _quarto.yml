@@ -7,62 +7,18 @@ book:
   author: "Jane Doe"
   date: today
   date-format: "MMMM YYYY"
-  chapters:
-    - index.qmd
-#    - acknowledgements.qmd         # uncomment this line to see acknowledgements in html (will appear twice in pfd)
-    - 0-abstract.qmd
-    - 1-introduction.qmd
-    - 2-methods.qmd
-    - 3-results.qmd
-    - 4-discussion.qmd
-    - 5-conclusions.qmd
-    - references.qmd
-  appendices:
-    - app1-resources.qmd
-    - app2-tools.qmd
-
+ 
 bibliography: references.bib
 
 execute:
   echo: true # change to false to hide code
 
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-    keep-tex: true 
-    toc: false
-    papersize: a4
-    header-includes: |
-      \usepackage{titling}
-      \setlength{\droptitle}{-2cm}
-      \preauthor{
-        \begin{center}
-        \includegraphics[width=5in,height=4in]{figures/IMG_20210719_134928644.jpg}\\ % cover figure
-        \Large
-      }
-      \postauthor{
-        \end{center}
-      }
-      \predate{
-        \begin{center}
-        Master of Science in Biology\\               % Degree
-        Biodiversity, Evolution and Ecology\\        % Degree stream
-        Department of Biological Sciences\\          % Department
-        University of Bergen\\                       % University 
-        \vspace{5mm}
-      }
-      \postdate{
-        \\
-        \includegraphics[width=1.5in,height=1.5in]{figures/UiB-emblem500px_gray.png}\\
-        \end{center}
-        \newpage
-        \mbox{}
-        \vfill
-        Cover page\\
-        \emph{Beckwithia glacialis} on Snøhetta.
-       }
+
+profile:
+  group: 
+    - [html, pdf]
 
 editor: visual
+
+
 
