@@ -4,76 +4,111 @@
     "href": "index.html",
     "title": "The title of my most excellent thesis",
     "section": "",
-    "text": "Cover Page\n\n\n\n\n\n\n\n\n\n\n\nMaster of Science in Biology\nBiodiversity, Evolution and Ecology\nDepartment of Biology\nUniversity of Bergen"
+    "text": "Cover Page\n\n\n\n\n\n\n\n\n\n\n\nMaster of Science in Biology\nBiodiversity, Evolution and Ecology\nDepartment of Biology\nUniversity of Bergen",
+    "crumbs": [
+      "Cover Page"
+    ]
   },
   {
     "objectID": "acknowledgements.html",
     "href": "acknowledgements.html",
     "title": "Acknowledgements",
     "section": "",
-    "text": "Thanks for all the fish."
+    "text": "Thanks for all the fish.",
+    "crumbs": [
+      "Acknowledgements"
+    ]
   },
   {
     "objectID": "0-abstract.html",
     "href": "0-abstract.html",
     "title": "Abstract",
     "section": "",
-    "text": "Make a new paragraph by leaving a blank line."
+    "text": "This is a thesis skeleton written with quarto. Make a copy of this thesis repo and start to write!\nMake a new paragraph by leaving a blank line.",
+    "crumbs": [
+      "Abstract"
+    ]
   },
   {
     "objectID": "1-introduction.html",
     "href": "1-introduction.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
   },
   {
     "objectID": "2-methods.html",
     "href": "2-methods.html",
     "title": "2  Methods",
     "section": "",
-    "text": "Stuff I did to get the results."
+    "text": "Stuff I did to get the results.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Methods</span>"
+    ]
   },
   {
     "objectID": "3-results.html",
     "href": "3-results.html",
     "title": "3  Results",
     "section": "",
-    "text": "See Appendix A for more detailed results"
+    "text": "What I found out.\nSee Appendix A for more detailed results",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Results</span>"
+    ]
   },
   {
     "objectID": "4-discussion.html",
     "href": "4-discussion.html",
     "title": "4  Discussion",
     "section": "",
-    "text": "My results in context"
+    "text": "My results in context",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Discussion</span>"
+    ]
   },
   {
     "objectID": "5-conclusions.html",
     "href": "5-conclusions.html",
     "title": "5  Summary",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+    ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
   },
   {
     "objectID": "app1-resources.html",
     "href": "app1-resources.html",
     "title": "Appendix A — More results",
     "section": "",
-    "text": "Some results that wouldn’t fit into the main thesis"
+    "text": "Some results that wouldn’t fit into the main thesis",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>More results</span>"
+    ]
   },
   {
     "objectID": "app2-tools.html",
     "href": "app2-tools.html",
     "title": "Appendix B — Another appendix",
     "section": "",
-    "text": "Something else"
+    "text": "Something else",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Another appendix</span>"
+    ]
   }
 ]
